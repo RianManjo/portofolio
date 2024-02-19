@@ -1,0 +1,28 @@
+a {
+    text-decoration: none;
+}
+
+.navbar {
+    background-color: #0F0F0F;
+    position: fixed;
+    top: 0;
+    height: 144px;
+    display: flex;
+    position: relative;
+}
+
+.navbar-logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-logo a {
+    color: #FFF;
+}
+
+.navbar-menu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
