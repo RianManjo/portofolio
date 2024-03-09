@@ -8,7 +8,7 @@ function App() {
   return (
     <div>
       {/* navbar section */}
-      <div className='navbar' >
+      <div className=''>
         <NavigationBar/>
       </div>
       {/* navbar selesai */}

@@ -1,20 +1,14 @@
 import React from 'react';
+import {Container, Navbar, Button, Row, Col} from 'react-bootstrap';
 
 const NavigationBar = () => {
-    return (    
-        <div>            
-            <nav className='navbar'>
-                <div className='navbar-logo'><a href='/'>Manjo.Dev</a></div>
-                <div className='navbar-menu'>
-                    <p className='menu'><a href='/'>Home</a></p>
-                    <p className='menu'> <a href='/'>About</a></p>
-                    <p className='menu'> <a href='/'>Project</a></p>
-                    <p className='menu'> <a href='/'>Blog</a></p>
-                </div>
-            </nav>
-
-        </div>
-    )
+    return (            
+        <Navbar className="bg-body-tertiary">
+        <Container>
+          <Navbar.Brand href="#home">Brand link</Navbar.Brand>
+        </Container>
+      </Navbar>                    
+    );
 }
 
 export default NavigationBar;
