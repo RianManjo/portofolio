@@ -1,11 +1,21 @@
 .navbar {
-    background-color: #0F0F0F;
-    height: 140px;
-    display: flex;        
-}
-
-Navbar {
+    background-color: #0F0F0F;    
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: center;        
 }
+
+.navbar .title {
+    color: #FFF;
+}
+
+.navbar-list {
+    display: flex;
+    color: #FFF;
+    list-style: none;
+    gap: 20px;
+}
+
+
+
+
