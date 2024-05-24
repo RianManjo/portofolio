@@ -146,9 +146,11 @@ section:nth-child(odd) {
     header {        
         padding: 20px 10px;                
     }
+    
     .logo {
         font-size: 18px;        
     }
+
     nav a {
         font-size: 12px;                
         margin-left: 5px;        
