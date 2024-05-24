@@ -36,7 +36,7 @@ nav a {
     text-decoration: none;
     font-weight: 500;
     margin-left: 35px;
-    transition: .3s;
+    transition: .2s;
 }
 nav a:hover,
 nav a.active {    
@@ -52,10 +52,6 @@ section:nth-child(odd) {
 /* Navigation Bar End */
 
 /* Section About */
-#About {
-    height: 100vh;
-}
-
 #About .home .name .title {
     font-size: 60px;
     font-weight: 700;
@@ -86,7 +82,8 @@ section:nth-child(odd) {
     height: 320px;
     object-fit: cover;
     margin: 130px 0px 0px 0px;
-    float: right;    
+    float: right;
+    border-radius: 12px;    
 }
 /* Section About End */
 #Work {
@@ -103,52 +100,40 @@ section:nth-child(odd) {
 
 @media (max-width: 767px) {
     /* Navigation Bar */
-    header {
-        position: fixed;
-        top: 0;
-        /* left: 0; */
-        width: 100%;
-        padding: 20px 20px;
-        
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        z-index: 100;
-        backdrop-filter: blur(70px);
+    header {        
+        padding: 20px 10px;                
     }
     .logo {
-        font-size: 18px;
-        text-decoration: none;
-        font-weight: 600;
-        color: #FFF;
+        font-size: 18px;        
     }
     nav a {
-        font-size: 12px;
-        color: #FFF;
-        text-decoration: none;
-        font-weight: 500;
-        margin-left: 5px;
-        transition: .2s;
-    }
-    nav a:hover,
-    nav a.active {    
-        border-bottom: 2px solid rgb(255, 255, 255);
-    }
-
-    section {
-        background: #030712;    
-    }
-    section:nth-child(odd) {
-        background: #111827;
-    }
+        font-size: 12px;                
+        margin-left: 5px;        
+    }       
     /* Navigation Bar End */
+    
+    /* Section About */    
+    #About .home .name .title {
+        font-size:24px;        
+        margin: 80px 0px 0px 0px;
+    }
 
-    /* Section About */
+    #About .home .name .sub-title {
+        font-size: 10px;        
+    }
+
+    #About .icon ul {
+        gap: 40px;
+    }    
+
+    #About .bi, #About .home span {
+        font-size: 12px;
+    }
+
     #About .profile img {
-        margin: 0px 0px 0px 0px;
-        width: 240px;
-        height: 280px;
-        
+        margin: 0px;
+        width: 220px;
+        height: 230px;          
     }
     /* Section About End */
 }
