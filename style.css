@@ -137,7 +137,7 @@ section:nth-child(odd) {
 
 .logos {
     overflow: hidden;
-    padding: 60px 0;    
+    padding: 48px 0;    
     white-space: nowrap;
     position: relative;    
 }
@@ -160,7 +160,7 @@ section:nth-child(odd) {
 
 .logos-slide {
     display: inline-block;
-    animation: 30s slide infinite linear;
+    animation: 70s slide infinite linear;
 }
 
 .logos-slide img {
@@ -202,7 +202,7 @@ section:nth-child(odd) {
 
 .logos-slide-two {
     display: inline-block;
-    animation: 30s slide-two infinite linear;
+    animation: 50s slide-two infinite linear;
 }
 
 .logos-slide-two img {
@@ -307,4 +307,31 @@ section:nth-child(odd) {
         font-size: 12px;
     }
     /* Section About End */
+
+    /* Section Skill */
+    .logos {
+        overflow: hidden;
+        padding: 15px 0;    
+        white-space: nowrap;
+        position: relative;    
+    }
+
+    .logos-two {
+        overflow: hidden;
+        padding: 15px 0;    
+        white-space: nowrap;
+        position: relative;    
+    }
+    #Skill .logos .logos-slide img, .logos-two .logos-slide-two img{
+        width: 40px;
+        height: 40px;
+    }
+    /* Section Skill End */
+
+    /* Section Work*/
+    #Work .card .card-left img {
+        width: 279px;
+        height: 192px;
+    }
+    /* Section Work End*/
 }
