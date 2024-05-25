@@ -90,13 +90,13 @@ section:nth-child(odd) {
     border-radius: 12px;    
 }
 
-#About .about .title, #Skill .skill .title {
+#About .about .title, #Skill .skill .title, #Experience .experience .title, #Work .work .title, #Testimonial .testimonial .title {
     background-color: #374151;
     color: #FFF;
     margin: 96px 0px 50px 0px;
     font-size: 14px;
     font-weight: 300;
-    width: 105px;
+    width: 125px;
     height: 29px;
     border-radius: 12px;    
     display: flex;
@@ -126,16 +126,122 @@ section:nth-child(odd) {
 /* Section About End */
 
 /* Section Skill*/
+@keyframes slide {
+    from {
+        transform: translateX(0);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
 
+.logos {
+    overflow: hidden;
+    padding: 60px 0;    
+    white-space: nowrap;
+    position: relative;    
+}
+
+.logos::before, .logos::after {
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos:before {
+    left: 0;    
+}
+
+.logos:after {
+    right: 0;    
+}
+
+.logos-slide {
+    display: inline-block;
+    animation: 30s slide infinite linear;
+}
+
+.logos-slide img {
+    height: 50px;
+    margin: 0 40px;
+}
+
+@keyframes slide-two {
+    from {
+        transform: translateX(-100%);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+
+.logos-two {
+    overflow: hidden;
+    padding: 10px 0;
+    white-space: nowrap;
+    position: relative;
+}
+
+.logos-two::before, .logos-two::after {
+    position: absolute;
+    width: 250px;
+    height: 100%;
+    content: "";
+    z-index: 2;
+}
+
+.logos-two:after {
+    left: 0;    
+}
+
+.logos-two:before {
+    right: 0;    
+}
+
+.logos-slide-two {
+    display: inline-block;
+    animation: 30s slide-two infinite linear;
+}
+
+.logos-slide-two img {
+    height: 50px;
+    margin: 0 40px;
+}
 /* Section Skill End*/
 
-#Work {
-    height: 200vh;
+/* Section Experience */
+#Experience .card {
+    width: 896px;
+    height: 288px;
+    background-color: #1F2937;
+}
+/* Section Experience End */
+
+/* Section Work */
+#Work .card {    
+    background: transparent;
 }
 
-#Testimonial {
-    height: 50vh;
+#Work .card .row .card-left {
+    background-color: #374151;
+    width: 576px;
+    height: 480px;
 }
+
+#Work .card .row .card-right {
+    background-color: #1F2937;
+    width: 576px;
+    height: 480px;
+}
+/* Section Work End */
+
+/* Section Testimonials */
+#Testimonial {
+    
+}
+/* Section Testimonials End */
 
 #Contact {
     height: 100vh;
@@ -146,7 +252,7 @@ section:nth-child(odd) {
     header {        
         padding: 20px 10px;                
     }
-    
+
     .logo {
         font-size: 18px;        
     }
@@ -194,11 +300,11 @@ section:nth-child(odd) {
     }
 
     #About .aboutMe {
-        font-size: 24px;
+        font-size: 22px;
     }
 
     #About .description {
-        font-size: 16px;
+        font-size: 12px;
     }
     /* Section About End */
 }
