@@ -90,7 +90,7 @@ section:nth-child(odd) {
     border-radius: 12px;    
 }
 
-#About .about .title, #Skill .skill .title, #Experience .experience .title, #Work .work .title, #Testimonial .testimonial .title {
+#About .about .title, #Skill .skill .title, #Experience .experience .title, #Work .work .title, #Testimonial .testimonial .title, #Contact .contact .title {
     background-color: #374151;
     color: #FFF;
     margin: 96px 0px 50px 0px;
@@ -243,9 +243,44 @@ section:nth-child(odd) {
 }
 /* Section Testimonials End */
 
-#Contact {
-    height: 100vh;
+/* Section Contact */
+#Contact .title {
+    font-size: 32px;
+    font-weight: 700;
 }
+
+#Contact .sub-title {
+    font-size: 17px;
+    width: 400px;
+    line-height: 25px;
+    font-weight: 200;
+}
+
+#Contact input {
+    width: 100%;
+    height: 69px;    
+    border: none;
+}
+
+#Contact input, #Contact textarea {
+    padding: 0px 0px 0px 21px;   
+    border-radius: 5px; 
+}
+
+#Contact textarea {
+    width: 100%;
+    height: 231px;
+    padding-top: 21px;        
+}
+
+#Contact a button {
+    border: none;
+    background-color: #1F2937;
+    width: 235px;
+    height: 80px;
+    border-radius: 5px;
+}
+/* Section Contact End */
 
 @media (max-width: 767px) {
     /* Navigation Bar */
