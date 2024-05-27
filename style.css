@@ -369,4 +369,34 @@ section:nth-child(odd) {
         height: 192px;
     }
     /* Section Work End*/
+
+    /* Section Contact */
+    #Contact .title {
+        font-size: 18px;
+        text-align: center;
+    }
+
+    #Contact .sub-title {
+        font-size: 12px;
+        width: auto;
+        text-align: center;
+    }
+
+    #Contact input {
+        height: 40px;
+        font-size: 12px;
+    }
+
+    #Contact textarea {
+        height: 100px;
+        padding-top: 10px;
+        font-size: 12px;
+    }
+
+    #Contact a button {
+        width: 100px;
+        height: 30px;
+        font-size: 12px;
+    }
+    /* Section Contact End */
 }
