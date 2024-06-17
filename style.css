@@ -213,9 +213,45 @@ section:nth-child(odd) {
 
 /* Section Experience */
 #Experience .card {
-    width: 896px;
-    height: 288px;
+    width: 896px;    
     background-color: #1F2937;
+}
+
+#Experience .card .title, .time {    
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#Experience .card .sub-title {
+    margin: 0px 0px 20px 0px;
+    font-size: 146x;
+    font-weight: 200;    
+}
+
+#Experience .card .time {
+    text-align: end;    
+    padding-right: 30px;
+}
+
+#Experience .card .logo-growlab {
+    margin: 85px 0px 0px 15px;
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#Experience .card .logo-afila {
+    margin: 60px 0px 0px 0px;
+    width: 230px;
+    height: auto;
+}
+
+#Experience .card .logo-kampusMengajar {
+    margin: 130px 0px 0px 30px;
+    width: 230px;
+    height: auto;
 }
 /* Section Experience End */
 
