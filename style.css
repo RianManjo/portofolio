@@ -222,6 +222,10 @@ section:nth-child(odd) {
     font-weight: 500;
 }
 
+#Experience .card .title span {
+    display: none;
+}
+
 #Experience .card .sub-title {
     margin: 0px 0px 20px 0px;
     font-size: 146x;
@@ -234,7 +238,7 @@ section:nth-child(odd) {
 }
 
 #Experience .card .logo-growlab {
-    margin: 85px 0px 0px 15px;
+    margin: 65px 0px 0px 15px;
     width: 200px;
     height: auto;
     display: flex;
@@ -385,6 +389,50 @@ section:nth-child(odd) {
         font-size: 12px;
     }
     /* Section About End */
+
+    /* Section Experience */
+    #Experience .card .logo-growlab {                
+        /* margin: auto; */
+        width: 100px;
+        height: auto;
+        display: flex;
+        margin: 0 auto;
+    }
+
+    #Experience .card .logo-afila {
+        margin: auto;
+        display: flex;        
+        width: 170px;
+        height: auto;
+    }
+
+    #Experience .card .logo-kampusMengajar {
+        margin: 0 auto;
+        display: flex;
+        width: 150px;
+        height: auto;
+    }
+
+    #Experience .card .title {
+        font-size: 16px;
+        text-align: center;        
+    }
+
+    #Experience .card .title span {
+        font-size: 12px;
+        display: block;
+    }
+
+    #Experience .card .sub-title {
+        font-size: 12px;
+        padding: 10px;
+        text-align: center;
+    }
+
+    #Experience .card .time {
+        display: none;
+    }
+    /* Section Experience End */
 
     /* Section Skill */
     .logos {
