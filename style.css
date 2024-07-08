@@ -327,6 +327,12 @@ section:nth-child(odd) {
     height: 80px;
     border-radius: 5px;
 }
+
+#Testimonial .owl-carousel .item {
+    background-color: red;
+    width: 100px;
+    height: 100px;
+}
 /* Section Contact End */
 
 @media (max-width: 767px) {
