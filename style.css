@@ -90,7 +90,7 @@ section:nth-child(odd) {
     border-radius: 12px;    
 }
 
-#About .about .title, #Skill .skill .title, #Experience .experience .title, #Work .work .title, #Testimonial .testimonial .title, #Contact .contact .title {
+#About .about .title, #Skill .skill .title, #Experience .experience .title, #Work .work .title, #Testimonial .testimonial .title, #Certificate .certificate .title, #Contact .contact .title {
     background-color: #374151;
     color: #FFF;
     margin: 96px 0px 50px 0px;
@@ -290,6 +290,12 @@ section:nth-child(odd) {
 }
 /* Section Testimonials End */
 
+/* Section Certificate */
+#Certificate {
+    
+}
+/* Section Certificate End */
+
 /* Section Contact */
 #Contact .title {
     font-size: 32px;
@@ -328,9 +334,7 @@ section:nth-child(odd) {
     border-radius: 5px;
 }
 
-#Testimonial .owl-carousel .item {
-    background-color: red;
-    width: 100px;
+#Testimonial .owl-carousel .item {        
     height: 100px;
 }
 /* Section Contact End */
