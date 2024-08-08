@@ -307,6 +307,20 @@ section:nth-child(odd) {
     /* height: 100% auto; */
     /* width: auto; */
 }
+
+#Certificate button  {
+    width: 120px;
+    height: 48px;
+    background-color: #1F2937;
+    border: none;
+    border-radius: 12px;
+    margin: 10px 0px 20px 0px;
+}
+
+#Certificate button a {
+    color: #FFF;
+    text-decoration: none;
+}
 /* Section Certificate End */
 
 /* Section Contact */
