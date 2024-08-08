@@ -292,7 +292,13 @@ section:nth-child(odd) {
 
 /* Section Certificate */
 #Certificate {
-    
+
+}
+
+#Certificate .card {
+    height: 250px;
+    border: none;    
+    margin: 0px 0px 30px 0px;
 }
 /* Section Certificate End */
 
@@ -470,6 +476,14 @@ section:nth-child(odd) {
         height: auto;
     }
     /* Section Work End*/
+
+    /* Section Certificate */
+    #Certificate .card {
+        height: 50px;
+        border: none;    
+        margin: 0px 0px 30px 0px;
+    }
+    /* Section Certificate End */
 
     /* Section Contact */
     #Contact .title {
