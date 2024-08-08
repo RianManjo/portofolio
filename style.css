@@ -296,9 +296,16 @@ section:nth-child(odd) {
 }
 
 #Certificate .card {
-    height: 250px;
+    /* height: 250px; */
     border: none;    
     margin: 0px 0px 30px 0px;
+}
+
+#Certificate .card img {
+    /* background-size: cover; */
+    object-fit: cover;
+    /* height: 100% auto; */
+    /* width: auto; */
 }
 /* Section Certificate End */
 
@@ -477,11 +484,22 @@ section:nth-child(odd) {
     }
     /* Section Work End*/
 
-    /* Section Certificate */
+    /* Section Certificate */    
+
+    #Certificate .card {
+        /* height: 250px; */
+        /* border: none;     */
+        /* margin: 0px 0px 50px 0px; */
+    }
+
     #Certificate .card {
         height: 50px;
         border: none;    
         margin: 0px 0px 30px 0px;
+    }
+
+    #Certificate .title {
+        font-size: 7px;
     }
     /* Section Certificate End */
 
