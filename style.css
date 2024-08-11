@@ -260,6 +260,10 @@ section:nth-child(odd) {
 /* Section Experience End */
 
 /* Section Work */
+#Work a {
+    text-decoration: none;
+}
+
 #Work .card {    
     background: transparent;
 }
